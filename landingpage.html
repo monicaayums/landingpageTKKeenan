@@ -1,0 +1,64 @@
+<!Doctype HTML>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page TK Keenan</title>
+
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <header class="navbar-container">
+    <div class="logo">
+      <img src="img/logokeenan.jpeg" alt="Logo TK Keenan" width="300px">
+    </div>
+    <nav class="nav-list">
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Kontak Kami</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content" onload="Welcome">
+      <div class="content-description">
+        <h1 class="title">TK Keenan</h1>
+        <p>Selamat Datang di TK Keenan - Generasi Indonesia Berkarakter</p>
+        <p>TK Keenan adalah lembaga pendidikan yang berkomitmen untuk memberikan pendidikan awal terbaik bagi anak-anak
+          anda. Dengan lingkungan belajar yang aman dan nyaman serta cara belajar yang menyenangkan dan bermakna , kami
+          siap membimbing tunas tunas muda untuk berkembang dalam fase pondasi ini dengan penuh kasih sayang dan
+          dukungan. Kami percaya bahwa masa depan yang cerah dimulai dari pendidikan awal yang kuat. Bergabunglah dengan
+          kami dan saksikan perkembangan luar biasa buah hati anda.</p>
+
+        <button id="redirectButton" onclick="redirectGoogleMaps">Pelajari Lebih Lanjut</button>
+      </div>
+
+      <div class="content-image">
+        <img src="img/logokeenan.jpeg" alt="Logo TK Keenan">
+      </div>
+
+      <aside>
+        <div class="social-media">
+          <ul>
+            <li id="instagramListItem" onclick="openInstagramProfile"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li id="facebookListItem" onclick="openFacebookProfile"><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li id="whatsappListItem" onclick="openWhatsapp"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+            <li id="youtubeListItem" onclick="openYoutube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <script src="src/script/main.js"></script>
+  </main>
+</body>
+
+</html>
